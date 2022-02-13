@@ -20,7 +20,7 @@ step 5 : stop
 
 ## c
 ### save using .c formalt
-[> ***Full code*** <](/add.c)<br> 
+[> ***Full code*** <](https://github.com/Ajay-o-s/Collage-codes/blob/main/1/add.c)<br> 
 
 ```
 #include<stdio.h>
@@ -41,7 +41,7 @@ void main ()
 
 # c++
 ### Save using .cpp formalt
-[> ***Full code*** <](/add.cpp)<br> 
+[> ***Full code*** <](https://github.com/Ajay-o-s/Collage-codes/blob/main/1/add.cpp)<br> 
 
 ```
 #include<iostream.h>
@@ -62,7 +62,7 @@ int main()
 
 ## Python
 ### save using .py formalt
-[> ***Full code*** <](/add.py)<br> 
+[> ***Full code*** <](https://github.com/Ajay-o-s/Collage-codes/blob/main/1/add.py)<br> 
 
 ```
 number1 =int(input("Enter number1 : ")); 
