@@ -101,10 +101,10 @@ trp = rp * np;
 trb = rb * nb;
 trn = rn * nn;
 total = trp + trb + trn;
-print("Total Rate of Pens = ",rp," * ",np," = ",trp);
-print("Total Rate of boxes = ",rb," * ",nb," = ",trb);
-print("Total Rate of notebooks = ",rn," * ",nn," = ",trn);
-print("Total Rate = ",trp," + ",trb," + ",trn," = ",total);
+print "Total Rate of Pens = ",rp,"*",np,"=",trp;
+print "Total Rate of boxes = ",rb,"*",nb,"=",trb;
+print "Total Rate of notebooks = ",rn,"*",nn,"=",trn;
+print "Total Rate = ",trp,"+",trb,"+",trn,"=",total;
 
 
 ```
