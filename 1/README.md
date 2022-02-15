@@ -23,15 +23,15 @@ step 5 : stop
 [> ***Full code*** <](https://github.com/Ajay-o-s/Collage-codes/blob/main/1/add.c)<br> 
 
 ```
-#include<stdio.h>
-void main ()
+#include<stdio.h> 
+void main()
 {
     int number1,number2,sum;
-    printf("Enter Number1 : ");
-    scanf("%d",&number1);
+    printf("Enter Number1 : "); 
+    scanf("%d",&number1); 
     printf("Enter Number2 : ");
-    scanf("%d",&number2);
-    sum = number1 +number2
+    scanf("%d",&number2); 
+    sum = number1 +number2;
     printf("SUM = %d \n",sum);
 }
 
