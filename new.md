@@ -26,3 +26,25 @@ run
 ```
 ./main
 ```
+---
+---
+
+#2
+
+```
+#include <stdio.h>
+#include <math.h>
+
+void main()
+{
+    float r,y,z;
+    printf("Enter the side of sphere :  ");
+    scanf("%f", &r);
+    y = pow(r,3);
+    z = (4 *3.14 * y/3);
+    printf(" The volume of sphere is = %f\n", z);
+
+}
+
+
+```
