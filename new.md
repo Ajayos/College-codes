@@ -48,3 +48,23 @@ void main()
 
 
 ```
+
+---
+
+```
+
+#include <stdio.h>
+#include<math.h>
+void main()
+{
+    float x,result;
+    printf("Enter a number : ");
+    scanf("%f", &x);
+    result = sqrt(x);
+    printf(" The squre = %f\n", result);
+
+}
+
+```
+
+
