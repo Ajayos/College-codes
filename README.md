@@ -1,4 +1,4 @@
-# [**EXAM**](/exam/README.md)
+# [**EXAM**](/exam/)
 
 # [**Write a program to read two numbers, add num and display the result**](/1/README.md)<br> 
 
