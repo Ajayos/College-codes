@@ -1,7 +1,6 @@
 num = int(input("Enter a number : "));
-i=0;
 
-while i<num:
-
+for i in range(0,num+1):
+    
     print(i)
-    i=i+1;
+    
