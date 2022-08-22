@@ -1,18 +1,30 @@
 #include<stdio.h>
 void main()
 {
-    int a[5],n,i;
-    printf("Enter number of elements : ");
-    scanf("%d",&n);
+    int a[5][5], r, c, i, j;
+    printf("Enter r and c : ");
+    scanf("%d %d",&r,&c);
     printf("Enter elements : ");
-    for(i=0;i<n;i++)
+    for(i=0; i<r; i++)
     {
-        scanf("%d",&a[i]);
+        for(j=0; j<c; j++)
+        {
+            scanf("%d",&a[i][j]);
+        }
     }
-    printf("\nElenments are : ");
-    for(i=0;i<n;i++)
+    printf("\nElements are : \n");
+    for(i=0; i<r; i++)
     {
-        printf("%d ",a[i]);
+        for(j=0; j<c; j++)
+        {
+            printf("%d ",a[i][j]);
+        }
+        printf("\n");
     }
-    printf("\n");
+
 }
+
+/**
+ * 4 5 6 7 8 9
+ * 1 4 5 5 6 7
+ */
