@@ -1,0 +1,203 @@
+body {
+    background-image: url(https://raw.githubusercontent.com/Ajay-o-s/Ajay-o-s/master/images/background.webp);
+}
+h1 {
+    font-family: arial;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(229, 255, 0);
+}
+.main {
+    position: center;
+    border: solid 4px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px; 
+    animation: animate 10s linear infinite;
+    
+}
+.main:hover {
+    /*border: 3px solid rgb(43, 255, 0);*/
+    border-radius: 7px;
+    padding: 10px;
+    animation: animatee 20s linear infinite;
+    
+}
+button {
+    width: 80;
+    height: 80;
+    border: solid;
+    font-size: 25;
+}
+button:hover {
+    color: rgb(247, 1, 1);
+    cursor: cell;
+    background-color: transparent;
+}
+  
+.textinput {
+    width: 335;
+    height: 50;
+    font-size: 25;
+    color: #000000;
+    border: 3px solid rgb(43, 255, 0);
+    border: solid;
+}
+
+@keyframes animate {
+    0% { 
+        border-top: 3px solid #002bff;
+        border-bottom: 3px solid #48ff00;
+        border-left: 3px solid #ff0000;
+        border-right: 3px solid #fffb00;
+    }
+    10% { 
+        border-top: 3px solid #d43c00;
+        border-bottom: 3px solid #f8e116;
+        border-left: 3px solid #8bf150;
+        border-right: 3px solid #cf32ff;
+    }
+    20% {
+        border-top: 3px solid #eb2849;
+        border-bottom: 3px solid #8fff34;
+        border-left: 3px solid #acb2b4;
+        border-right: 3px solid #00ff22;
+
+    }
+    30% { 
+        border-top: 3px solid #6078ee;
+        border-bottom: 3px solid #48ff00;
+        border-left: 3px solid #ff0000;
+        border-right: 3px solid #fffd9a;
+    }
+    40% { 
+        border-top: 3px solid #d43c00;
+        border-bottom: 3px solid #f8e116;
+        border-left: 3px solid #afb6ab;
+        border-right: 3px solid #fc2a69;
+    }
+    50% { 
+        border-top: 3px solid #d45de4;
+        border-bottom: 3px solid #33eecf;
+        border-left: 3px solid #75ffca;
+        border-right: 3px solid #fffb00;
+    }
+
+
+    96% { 
+        border-top: 3px solid #d43c00;
+        border-bottom: 3px solid #f8e116;
+        border-left: 3px solid #8bf150;
+        border-right: 3px solid #cf32ff;
+    }
+    90% {
+        border-top: 3px solid #eb2849;
+        border-bottom: 3px solid #8fff34;
+        border-left: 3px solid #acb2b4;
+        border-right: 3px solid #00ff22;
+    }
+    80% { 
+        border-top: 3px solid #6078ee;
+        border-bottom: 3px solid #48ff00;
+        border-left: 3px solid #ff0000;
+        border-right: 3px solid #fffd9a;
+    }
+    70% { 
+        border-top: 3px solid #d43c00;
+        border-bottom: 3px solid #f8e116;
+        border-left: 3px solid #afb6ab;
+        border-right: 3px solid #fc2a69;
+    }
+    60% { 
+        border-top: 3px solid #d45de4;
+        border-bottom: 3px solid #33eecf;
+        border-left: 3px solid #75ffca;
+        border-right: 3px solid #fffb00;
+    }
+}
+
+ 
+@keyframes animatee {
+    0% { 
+        border-top: 3px solid #002bff;
+        border-bottom: 3px solid #48ff00;
+        border-left: 3px solid #ff0000;
+        border-right: 3px solid #fffb00;
+        box-shadow: 1px 1px 10px #ffdc3f;
+    }
+    10% { 
+        border-top: 3px solid #d43c00;
+        border-bottom: 3px solid #f8e116;
+        border-left: 3px solid #8bf150;
+        border-right: 3px solid #cf32ff;
+        box-shadow: 2px 2px 10px #e6bb00;
+    }
+    20% {
+        border-top: 3px solid #eb2849;
+        border-bottom: 3px solid #8fff34;
+        border-left: 3px solid #acb2b4;
+        border-right: 3px solid #00ff22;
+        box-shadow: 3px 3px 10px #9dff64;
+    }
+    30% { 
+        border-top: 3px solid #6078ee;
+        border-bottom: 3px solid #48ff00;
+        border-left: 3px solid #ff0000;
+        border-right: 3px solid #fffd9a;
+        box-shadow: 4px 4px 10px #8bff06;
+    }
+    40% { 
+        border-top: 3px solid #d43c00;
+        border-bottom: 3px solid #f8e116;
+        border-left: 3px solid #afb6ab;
+        border-right: 3px solid #fc2a69;
+        box-shadow: 5px 5px 10px #18ff5d;
+    }
+    50% { 
+        border-top: 3px solid #d45de4;
+        border-bottom: 3px solid #33eecf;
+        border-left: 3px solid #75ffca;
+        border-right: 3px solid #fffb00;
+        box-shadow: 6px 6px 10px #ffe46d;
+    }
+
+
+    100% {
+        box-shadow: 2px 2px 10px #e6bb00;
+    }
+    96% { 
+        border-top: 3px solid #d43c00;
+        border-bottom: 3px solid #f8e116;
+        border-left: 3px solid #8bf150;
+        border-right: 3px solid #cf32ff;
+    }
+    90% {
+        border-top: 3px solid #eb2849;
+        border-bottom: 3px solid #8fff34;
+        border-left: 3px solid #acb2b4;
+        border-right: 3px solid #00ff22;
+        box-shadow: 3px 3px 10px #9dff64;
+    }
+    80% { 
+        border-top: 3px solid #6078ee;
+        border-bottom: 3px solid #48ff00;
+        border-left: 3px solid #ff0000;
+        border-right: 3px solid #fffd9a;
+        box-shadow: 4px 4px 10px #8bff06;
+    }
+    70% { 
+        border-top: 3px solid #d43c00;
+        border-bottom: 3px solid #f8e116;
+        border-left: 3px solid #afb6ab;
+        border-right: 3px solid #fc2a69;
+        box-shadow: 5px 5px 10px #18ff5d;
+    }
+    60% { 
+        border-top: 3px solid #d45de4;
+        border-bottom: 3px solid #33eecf;
+        border-left: 3px solid #75ffca;
+        border-right: 3px solid #fffb00;
+        box-shadow: 6px 6px 10px #ffe46d;
+    }
+}

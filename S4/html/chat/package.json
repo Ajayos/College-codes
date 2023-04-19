@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Ajay o s",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .",
+    "start": "supervisor ."
+  },
+  "author": "Ajay o s",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "ip": "^1.1.8",
+    "mon": "^0.0.8",
+    "node": "^16.17.0",
+    "socket.io": "^2.3.0",
+    "supervisor": "^0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajay-o-s/Ajay-o-s.git"
+  },
+  "keywords": [
+    "Ajay"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ajay-o-s/Ajay-o-s/issues"
+  },
+  "homepage": "https://github.com/Ajay-o-s/Ajay-o-s#readme"
+}

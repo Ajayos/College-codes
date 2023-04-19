@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Factorial</title>
+        <style>
+            p {
+                font-weight: bold;
+                font-size: large;
+            }
+        </style>
+        <script>
+            function numbers(){
+                let fac=1, i;
+                var n = prompt("Enter the number : ");
+                for(i=1;i<=n;i++){
+                    document.write("<p>" + i + "</p>");
+                    fac *= i;
+                }
+                document.write("<p>Factorial = " + fac + "</p>");
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Numbers</h2>
+        <script> numbers(); </script>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    background-image: url(https://raw.githubusercontent.com/Ajay-o-s/Ajay-o-s/master/images/background.webp);
+}
+.container {
+    margin-inline: auto;
+    position: center;
+    font-family: arial;
+    font-size: 24px;
+    margin: 10%;
+    width: 300px;
+    height: 300px;
+    border: solid 4px;
+}
+section {
+    width: 800px;
+    height: 400px;
+    box-shadow: 1px 1px 8px #919191;
+    border: solid 4px #ffffff;
+    flex-direction: column;
+    /* background: #fff; */
+    margin-top: 10px;
+    margin-left: 10px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    
+
+}
+h1 {
+    font-family: arial;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+button {
+    width: 200;
+    height: 200;
+    border: solid;
+    color: white;
+    background-color: transparent;
+    font-size: 100;
+}
+button:hover {
+    color: rgb(247, 1, 1);
+    background-color: transparent;
+    
+}
+.textinput {
+    width: 335;
+    height: 50;
+    font-size: 25;
+    color: #000000;
+    border: solid;
+}
+  
+ 
