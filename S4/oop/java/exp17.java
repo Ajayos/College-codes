@@ -2,51 +2,47 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class exp17 implements ActionListener {
-    JTextField nameTextField, branchTextField;
-    JLabel clickedLabel;
+   JTextField one, two;
+   JLabel label= new JLabel(" ");
 
-    public exp17() {
-        JFrame frame = new JFrame("Input Form");
-        frame.setSize(500, 500);
-        frame.setVisible(true);
-        frame.setLayout(null);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   public exp17() {
+    JFrame f = new JFrame("Text Click");
+     f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        nameTextField = new JTextField();
-        nameTextField.setBounds(150, 50, 200, 30);
-        nameTextField.setActionCommand("name");
-        nameTextField.addActionListener(this);
-        frame.add(nameTextField);
+    one = new JTextField("\t NAME ");
+     two = new JTextField("\tBRANCH ");
+     one.addActionListener(this);
+     two.addActionListener(this);
 
-        branchTextField = new JTextField();
-        branchTextField.setBounds(150, 100, 200, 30);
-        branchTextField.setActionCommand("branch");
-        branchTextField.addActionListener(this);
-        frame.add(branchTextField);
+one.setBounds(150,170,230,30);
+one.setActionCommand("one");
+ f.add(one);
 
-        JButton submitButton = new JButton("Submit");
-        submitButton.setBounds(150, 150, 100, 30);
-        submitButton.addActionListener(this);
-        frame.add(submitButton);
+two.setBounds(150,220,230,30);
+ two.setActionCommand("two");
+ f.add(two);
 
-        clickedLabel = new JLabel("");
-        clickedLabel.setBounds(50, 200, 300, 30);
-        frame.add(clickedLabel);
-    }
+f.setLayout(null);
+     f.setSize(500, 500);
+            f.setVisible(true);
+         label.setBounds(190, 260, 230, 30);
+         f.add(label);
+          }
 
-    public void actionPerformed(ActionEvent e) {
-        if (e.getActionCommand().equals("name")) {
-            clickedLabel.setText("Name text box clicked.");
-        } else if (e.getActionCommand().equals("branch")) {
-            clickedLabel.setText("Branch text box clicked.");
-        } else if (e.getActionCommand().equals("Submit")) {
-            String name = nameTextField.getText();
-            String branch = branchTextField.getText();
-            clickedLabel.setText("Name: " + name + ", Branch: " + branch);
-        }
-    }
+          public void actionPerformed(ActionEvent e) {
+         if (e.getActionCommand().equals("one")) {
+                  label.setText("NAME BOX Clicked");
+                  }
+         else {
+                  label.setText("BRANCH BOX Clicked");
+         }
+          }
 
-    public static void main(String[] args) {
-        exp17 obj = new exp17();
-    }
+          public static void main(String[] args) {
+         new exp17();
+          }
 }
+
+
+
+

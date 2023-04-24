@@ -42,10 +42,10 @@ public class exp18 implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         String name = nameTextField.getText();
         String branch = branchTextField.getText();
-        resultLabel.setText("Name: " + name + ", Branch: " + branch);
+        resultLabel.setText("Name: " + name + "<br>, Branch: " + branch);
     }
 
     public static void main(String[] args) {
-        exp18 obj = new exp18();
+        new exp18();
     }
 }
