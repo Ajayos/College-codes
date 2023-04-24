@@ -1,0 +1,13 @@
+.biodata {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  background-color: rgb(0, 0, 0);
+  max-width: fit-content;
+  color: aliceblue;
+  margin-left: 30%;
+  padding: 9vh;
+  border-color: rgb(255, 0, 0);
+  border-width: 5px;
+  border-radius: 5vh;
+}
